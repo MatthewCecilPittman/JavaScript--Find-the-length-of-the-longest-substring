@@ -9,7 +9,7 @@ var counts ={};
 for(;j<n;j++) {
 var c = s.charAt(j);
 if(!counts[c]) {
-count[c] = 1;
+counts[c] = 1;
 numOfChars++;
 }
 else{
